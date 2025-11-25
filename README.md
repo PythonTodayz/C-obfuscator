@@ -33,7 +33,7 @@
 1.  **sᴇᴛᴜᴘ**
     ```bash
     pip install cython
-    git clone [https://github.com/PythonTodayz/C-obfuscator.git](https://github.com/PythonTodayz/C-obfuscator.git)
+    git clone https://github.com/PythonTodayz/C-obfuscator.git
     cd C-obfuscator
     ```
 
