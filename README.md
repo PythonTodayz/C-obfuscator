@@ -1,187 +1,227 @@
-PyToday - Python Obfuscation Tool
+🔒 PyToday - Advanced Python Obfuscator
 
-A powerful Python obfuscation and compilation tool that converts Python scripts into native executables with advanced protection features.
+https://via.placeholder.com/800x200/1e3a8a/ffffff?text=PyToday+Advanced+Obfuscator
 
-Features
+Professional Python Code Protection & Native Compilation Tool
+Convert your Python scripts into secure, native executables with advanced obfuscation
 
-· 🔒 Code Obfuscation: Multiple layers of obfuscation to protect source code
-· 🏗️ Native Compilation: Compiles Python to C and then to native binary
-· ⏰ Expiry System: Add time-based expiration to your scripts
-· 🐍 Version Locking: Restrict execution to specific Python versions
-· 🔧 Cross-Platform: Supports multiple architectures including arm64
-· 🎨 Professional Output: Clean, branded executable packages
+---
 
-Requirements
+🚀 Features
+
+Feature Description
+🔒 Multi-Layer Obfuscation Advanced encryption techniques to protect source code
+🏗️ Native Binary Compilation Convert Python to C and compile to native executable
+⏰ Time-Based Expiry Add expiration dates to your scripts
+🐍 Python Version Locking Restrict execution to specific Python versions
+📱 Mobile Support Works great on Pydroid and other mobile Python environments
+🔧 Cross-Platform Supports arm64, aarch64 architectures
+
+---
+
+📥 Installation
+
+Quick Install (Recommended for Pydroid)
+
+```bash
+pip install cython
+```
 
 System Requirements
 
-· Python: 3.11+ (recommended 3.11 for best compatibility)
-· GCC: C compiler for native binary generation
-· Cython: For Python to C compilation
+· Python: 3.11+ (Best compatibility with 3.11)
+· Dependencies: Only Cython required!
+· Mobile: Perfect for Pydroid app
 
-Python Dependencies
+---
 
-```text
-cython>=3.0.0
-```
+🎯 Quick Start
 
-Installation
-
-1. Install System Dependencies
-
-Ubuntu/Debian:
-
-```bash
-sudo apt update
-sudo apt install python3 python3-pip gcc build-essential
-```
-
-CentOS/RHEL:
-
-```bash
-sudo yum update
-sudo yum install python3 python3-pip gcc make
-```
-
-macOS:
-
-```bash
-brew install python3 gcc
-```
-
-2. Install Python Dependencies
-
-```bash
-pip3 install cython
-```
-
-3. Download PyToday
+1. Download the Tool
 
 ```bash
 git clone https://github.com/PythonTodayz/C-obfuscator.git
-cd pytoday
+cd C-obfuscator
 ```
 
-Usage
-
-Basic Usage
+2. Run the Encoder
 
 ```bash
-python3 pytoday_obf.py
+python3 pytoday_encoder.py
 ```
 
-Command Line Options
+3. Follow Interactive Prompts
 
-The tool provides an interactive interface:
+· 📁 Enter your Python script path
+· ⏰ Set expiry time (optional)
+· 🐍 Lock Python version (optional)
 
-1. Input File: Enter the path to your Python script
-2. Expiry Date: Optional - Add time-based expiration
-   · Examples: 10min, 2h, 1d, 1month, 2y
-   · Combinations: 1h 30min, 2month 15d
-3. Python Version Lock: Optional - Restrict to specific Python version
-   · Options: 3.11, 3.12, 3.13
+---
 
-Example Workflow
+💡 Usage Example
 
 ```bash
 # Run the encoder
-python3 pytoday_obf.py
+python3 pytoday_encoder.py
 
-# Follow the interactive prompts:
-# [+] Enter file path to encode: /path/to/your/script.py
-# [+] Add expiry date? (y/n): y
-# [+] Expiry time: 30d
-# [+] Add specific Python version? (y/n): y
-# [+] Choose option (1/2/3): 1
+# Interactive session:
+# 📁 Enter file: /sdcard/script.py
+# ⏰ Expiry: 30d
+# 🐍 Version lock: 3.11
+
+# ✅ Output: Enc_script.py (protected version)
 ```
 
-Output
+Your compiled file will be saved as:
+pytoday_temp/compiled [ pytoday]_19383.py
 
-The tool generates:
+---
 
-· Encrypted file: compiled [ pytoday]_82827.py (final distributable)
-· Temporary files: Automatically cleaned up after processing
+🛡️ Protection Features
 
-Supported Python Versions
-
-· ✅ Python 3.11 (Primary supported version)
-· ✅ Python 3.12
-· ✅ Python 3.13
-
-Expiry System
+🔐 Expiry System
 
 ```python
-# Example expiry formats supported:
 "10min"    # 10 minutes
-"2h"       # 2 hours  
-"1d"       # 1 day
-"1month"   # 1 month
-"1y"       # 1 year
-"1h 30min" # Combined format
+"2h"       # 2 hours
+"30d"      # 30 days
+"1year"    # 1 year
 ```
 
-Architecture Support
+🐍 Version Locking
 
-· arm64 (Apple Silicon Macs)
-· aarch64 (Linux ARM systems)
-· x86_64 systems
+· Python 3.11 ✅
+· Python 3.12 ✅
+· Python 3.13 ✅
 
-How It Works
+📱 Mobile Optimization
 
-1. Obfuscation: Applies multiple encryption layers to source code
-2. C Compilation: Uses Cython to convert Python to C code
-3. Binary Generation: Compiles C code to native executable
-4. Packaging: Creates self-extracting Python package
-5. Cleanup: Removes temporary files automatically
+Perfect for Pydroid users!
 
-Troubleshooting
+· Lightweight dependencies
+· Mobile-friendly interface
+· ARM architecture support
 
-Common Issues
+---
 
-1. Cython Installation Failed
-   ```bash
-   pip3 install --upgrade pip
-   pip3 install cython --no-cache-dir
-   ```
-2. GCC Not Found
-   ```bash
-   # Ubuntu/Debian
-   sudo apt install build-essential
-   
-   # macOS
-   xcode-select --install
-   ```
-3. Permission Denied
-   ```bash
-   chmod +x pytoday_obf.py
-   ```
-4. Python Version Mismatch
-   ```bash
-   python3 --version  # Check version
-   # Use Python 3.11 for best compatibility
-   ```
+🎨 Supported Platforms
 
-Error Messages
+Platform Status Notes
+Pydroid (Android) ✅ Perfect Recommended for mobile users
+Termux ✅ Excellent Full functionality
+Linux ✅ Great Native performance
+Windows ✅ Good Requires GCC
+macOS ✅ Good Apple Silicon supported
 
-· "Cython compilation failed": Check Cython installation
-· "GCC not found": Install GCC compiler
-· "File not found": Verify script path is correct
-· "Unsupported architecture": Currently supports arm64/aarch64
+---
 
-Security Notes
+⚡ For Pydroid Users
 
-· 🔐 Obfuscation ≠ Encryption: Code is obfuscated, not encrypted
-· ⚠️ No Absolute Protection: Determined attackers can reverse engineer
-· ✅ Best For: Deterring casual copying and basic protection
+Easy Setup in Pydroid:
 
-License
+1. 📱 Install Pydroid 3 from Play Store
+2. 🔧 Install Cython: pip install cython
+3. 📥 Download pytoday_encoder.py
+4. 🚀 Run and protect your scripts!
+
+Mobile-Optimized:
+
+· ✅ Touch-friendly interface
+· ✅ Low resource usage
+· ✅ ARM64 native compilation
+· ✅ No root required
+
+---
+
+🛠️ Technical Details
+
+Obfuscation Layers:
+
+1. Code Encryption - XOR-based encryption
+2. String Obfuscation - Dynamic string reconstruction
+3. Native Compilation - Python → C → Binary
+4. Anti-Debug - Basic anti-tampering
+
+Output:
+
+· Enc_original.py - Final protected file
+· Native binary - Architecture-specific executable
+· Self-extracting - No external dependencies needed
+
+---
+
+📞 Support & Community
+
+🔗 Join Our Telegram Channel
+
+https://img.shields.io/badge/Telegram-Join%20Channel-blue?style=for-the-badge&logo=telegram
+
+Get:
+
+· 🆕 Latest updates
+· 🐛 Bug fixes
+· 💡 Usage tutorials
+· 🎁 Exclusive tools
+· 🆘 Technical support
+
+---
+
+❓ Frequently Asked Questions
+
+❔ Where is my compiled file?
+
+Answer: Check the pytoday_temp folder for:
+compiled [ pytoday]_19383.py (number varies)
+
+❔ Why use Pydroid?
+
+Answer: Pydroid provides the complete Python environment on mobile with GCC support - perfect for PyToday!
+
+❔ Is my code 100% secure?
+
+Answer: While heavily obfuscated, determined reverse engineering is always possible. Perfect for deterring casual copying.
+
+❔ File not compiling?
+
+Answer:
+
+1. Ensure Cython is installed: pip install cython
+2. Use Python 3.11 for best results
+3. Check file permissions
+
+---
+
+🎊 Final Notes
+
+✅ What You Get:
+
+· 🔒 Protected intellectual property
+· ⏰ Controlled distribution
+· 📱 Mobile compatibility
+· 🚀 Native performance
+· 🛡️ Basic anti-tampering
+
+🎯 Perfect For:
+
+· 🔐 Protecting commercial scripts
+· 📱 Mobile app development
+· 🎓 Educational content protection
+· 💼 Business tool distribution
+
+---
+
+📄 License
 
 This tool is provided for educational and legitimate protection purposes only.
 
-Support
+---
 
-For issues and questions:
+<div align="center">🚀 Ready to Protect Your Code?
 
-1. Check troubleshooting section
-2. Verify all dependencies are installed
-3. Ensure Python 3.11+ is being used
+Join our community for updates and support!
+
+https://img.shields.io/badge/🔗_Join_Telegram_Channel-Click_Here-blue?style=for-the-badge&logo=telegram
+
+Star ⭐ the repository if you find this tool useful!
+
+</div>
