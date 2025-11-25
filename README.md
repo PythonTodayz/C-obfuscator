@@ -58,7 +58,7 @@ pip3 install cython
 3. Download PyToday
 
 ```bash
-git clone https://github.com/yourusername/pytoday.git
+git clone https://github.com/PythonTodayz/C-obfuscator.git
 cd pytoday
 ```
 
