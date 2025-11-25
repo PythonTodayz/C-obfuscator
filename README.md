@@ -1,6 +1,6 @@
 🔒 PyToday - Advanced Python Obfuscator
 
-https://via.placeholder.com/800x200/1e3a8a/ffffff?text=PyToday+Advanced+Obfuscator
+(https://i.ibb.co/vxtvLtKk/file-3204.jpg)
 
 Professional Python Code Protection & Native Compilation Tool
 Convert your Python scripts into secure, native executables with advanced obfuscation
