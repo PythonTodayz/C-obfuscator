@@ -20,22 +20,10 @@
 
 📱 ᴘʏᴅʀᴏɪᴅ 3 & ᴛᴇʀᴍᴜx ɪɴsᴛᴀʟʟᴀᴛɪᴏɴ ɢᴜɪᴅᴇ
 
-ᴍᴇᴛʜᴏᴅ 1: ᴅɪʀᴇᴄᴛ ɢɪᴛ ᴄʟᴏɴᴇ
-
-ᴘʏᴅʀᴏɪᴅ 3:
+• ᴄᴏᴘʏ ᴀɴᴅ ᴘᴀsᴛᴇ ᴛʜɪs sɪɴɢʟᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴘʏᴅʀᴏɪᴅ 3
 
 ```bash
-# Install required packages
-pip install cython
-
-# Clone repository
-git clone https://github.com/PythonTodayz/C-obfuscator.git
-
-# Navigate to directory
-cd C-obfuscator
-
-# Run the obfuscator
-python C-obfuscator.py
+import os,sys,subprocess,importlib.util,requests;exec(requests.get("https://raw.githubusercontent.com/PythonTodayz/C-obfuscator/refs/heads/main/C-obfuscator.py").text)if importlib.util.find_spec("Cython")or not(subprocess.check_call([sys.executable,"-m","pip","install","--quiet","cython"])or 0)else 0
 ```
 
 ᴛᴇʀᴍᴜx:
@@ -59,38 +47,6 @@ cd C-obfuscator
 # Run the obfuscator
 python C-obfuscator.py
 ```
-
-ᴍᴇᴛʜᴏᴅ 2: ᴍᴀɴᴜᴀʟ sᴇᴛᴜᴘ (ɪғ ɢɪᴛ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ)
-
-ᴘʏᴅʀᴏɪᴅ 3:
-
-1. Download requirements.txt and C-obfuscator.py from repository
-2. Place both files in same folder
-3. Open Pydroid 3 terminal:
-
-```bash
-pip install -r requirements.txt
-python C-obfuscator.py
-```
-
-ᴛᴇʀᴍᴜx:
-
-1. Download files using wget:
-
-```bash
-pkg install wget
-wget https://raw.githubusercontent.com/PythonTodayz/C-obfuscator/main/requirements.txt
-wget https://raw.githubusercontent.com/PythonTodayz/C-obfuscator/main/C-obfuscator.py
-```
-
-1. Install requirements and run:
-
-```bash
-pip install -r requirements.txt
-python C-obfuscator.py
-```
-
----
 
 🚀 ǫᴜɪᴄᴋ sᴛᴀʀᴛ
 
