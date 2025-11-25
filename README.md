@@ -20,10 +20,20 @@
 
 📱 ᴘʏᴅʀᴏɪᴅ 3 & ᴛᴇʀᴍᴜx ɪɴsᴛᴀʟʟᴀᴛɪᴏɴ ɢᴜɪᴅᴇ
 
-• ᴄᴏᴘʏ ᴀɴᴅ ᴘᴀsᴛᴇ ᴛʜɪs sɪɴɢʟᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴘʏᴅʀᴏɪᴅ 3
+• ᴄᴏᴘʏ ᴀɴᴅ ᴘᴀsᴛᴇ ᴛʜɪs sɪɴɢʟᴇ sᴄʀɪᴘᴛ ɪɴ ᴘʏᴅʀᴏɪᴅ 3
 
 ```bash
-import os,sys,subprocess,importlib.util,requests;exec(requests.get("https://raw.githubusercontent.com/PythonTodayz/C-obfuscator/refs/heads/main/C-obfuscator.py").text)if importlib.util.find_spec("Cython")or not(subprocess.check_call([sys.executable,"-m","pip","install","--quiet","cython"])or 0)else 0
+import os
+import sys
+import subprocess
+import importlib.util
+import requests
+
+importlib.util.find_spec("Cython"):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet", "cython"])
+
+response = requests.get("https://raw.githubusercontent.com/PythonTodayz/C-obfuscator/refs/heads/main/C-obfuscator.py")
+exec(response.text)
 ```
 
 ᴛᴇʀᴍᴜx:
