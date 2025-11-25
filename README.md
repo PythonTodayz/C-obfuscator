@@ -1,6 +1,8 @@
-🔒 PyToday - Advanced Python Obfuscator
+PyToday - Advanced Python Obfuscator
 
-[(https://i.ibb.co/vxtvLtKk/file-3204.jpg)]
+<p align="center">
+  <img src="https://i.ibb.co/vxtvLtKk/file-3204.jpg">
+</p>
 
 Professional Python Code Protection & Native Compilation Tool
 Convert your Python scripts into secure, native executables with advanced obfuscation
