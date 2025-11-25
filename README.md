@@ -29,7 +29,7 @@ import subprocess
 import importlib.util
 import requests
 
-importlib.util.find_spec("Cython"):
+if not importlib.util.find_spec("Cython"):
     subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet", "cython"])
 
 response = requests.get("https://raw.githubusercontent.com/PythonTodayz/C-obfuscator/refs/heads/main/C-obfuscator.py")
